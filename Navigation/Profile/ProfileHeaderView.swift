@@ -20,6 +20,7 @@ class ProfileHeaderView: UIView {
         }
         
         override func layoutSubviews() {
+            super.layoutSubviews()
           setup()
           
         

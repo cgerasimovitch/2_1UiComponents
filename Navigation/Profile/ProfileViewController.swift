@@ -17,6 +17,7 @@ class ProfileViewController: UIViewController {
 
     }
     override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
         profileView.frame = view.frame
     }
 
